@@ -15,14 +15,6 @@ export class TabsPage {
   tab3Root = ContactPage;
 
   constructor(public platform: Platform,public navCtrl: NavController,public viewCtrl: ViewController) {
-    this.platform.registerBackButtonAction(() => {
-      let viewname = this.navCtrl.getActive().id;
-      let tabView = this.tabRef.viewCtrl.instance.navCtrl._app._title;
-      
-      console.log(viewname);
-      console.log(tabView);
-      
-      
-    });
+
   }
 }

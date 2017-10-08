@@ -15,8 +15,8 @@ export class HomePage {
   }
   ionViewWillEnter() {
     console.log("HOMEEEE");
-    this.platform.registerBackButtonAction(() => {
-      console.log("backing");
-    }, 300)
+    // this.platform.registerBackButtonAction(() => {
+    //   console.log("backing");
+    // }, 300)
   }
 }
